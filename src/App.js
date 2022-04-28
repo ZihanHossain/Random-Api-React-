@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path={"/apis"} element={<Main />} />
+        <Route path={"/"} element={<Main />} />
         <Route path={"/catfact"} element={<CatDetails />} />
         <Route path={"/bored"} element={<BoredDetails />} />
         <Route path={"/ipcheck"} element={<IpDetails />} />
